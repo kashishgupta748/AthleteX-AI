@@ -113,26 +113,7 @@ Identifying and assessing athletic talent in India is a **major challenge** due 
 
 ---
 
-## 🧰 How to Run the Project  
 
-##💻 Frontend Setup
-
-# Go to frontend folder
-cd frontend  
-
-# Install dependencies
-npm install  
-
-# Run the frontend
-npm run dev  
-
-### 📦 Backend Setup  
-```bash
-# Install dependencies
-pip install flask flask-cors opencv-python mediapipe ultralytics python-dotenv  
-
-# Run the backend
-python app.py
 
 
 
