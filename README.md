@@ -1,166 +1,132 @@
-# AthleteX-AI
-Democratizing sports talent discovery in India with AI-powered video analysis, cheat detection, and performance benchmarking.
+# 🏆 AthleteX AI  
+**Democratizing sports talent discovery in India with AI-powered video analysis, cheat detection, and performance benchmarking.**
 
-👥 Team: Code Warrior
+---
 
+## 👥 Team: **Code Warrior**  
 
-Team Members: Kashish Gupta,Aniket Pandey, Amit Sharma, Alok Gupta, Hement, Shardha
+**Team Members:**  
+- Kashish Gupta  
+- Aniket Pandey  
+- Amit Sharma  
+- Alok Gupta  
+- Hement  
+- Shardha  
 
+---
 
+## 🔍 Problem Overview  
 
-🔍 Problem Overview
+Identifying and assessing athletic talent in India is a **major challenge** due to:  
 
-Identifying and assessing athletic talent in India is a major challenge due to:
+- ❌ **Lack of standardized testing facilities** in rural & remote areas  
+- 🏟 **Limited opportunities** for aspiring athletes to showcase their talent  
+- 🕒 **Manual evaluation** being slow, biased, and resource-heavy  
+- ⚠ **Fraudulent submissions** during assessments are hard to detect  
 
-❌ Lack of standardized testing facilities in rural & remote areas
+---
 
-🏟 Limited opportunities for aspiring athletes to showcase their talent
+## ✅ Proposed Solution  
 
-🕒 Manual evaluation being slow, biased, and resource-heavy
+**AthleteX AI** is a **mobile-first platform** that enables athletes to showcase their talent **anytime, anywhere.**  
 
-⚠ Difficulty in detecting fraudulent submissions during assessments
+- 📱 Athletes **record videos** of standard fitness tests (vertical jump, shuttle run, sit-ups, endurance run, etc.)  
+- 🧠 **AI/ML models** verify movements, calculate performance metrics & detect cheating  
+- 🔄 Data securely **uploaded to SAI servers** for official evaluation  
+- 📊 Athletes receive **instant benchmarking & progress tracking**  
 
+---
 
+## 🚀 Key Features  
 
+- 🎥 **Video-based Assessment:** Record & upload fitness tests via mobile  
+- 🧠 **On-device AI Analysis:** Jump height, sit-up count, shuttle run timing, endurance run distance  
+- 🛡 **AI Cheat Detection:** Detect tampered videos, incorrect posture, or camera manipulation  
+- 📊 **Performance Benchmarking:** Instant comparison with age/gender-specific standards  
+- 🕹 **Gamified Experience:** Leaderboards, badges & progress tracking  
+- 📶 **Offline Support:** Works offline, syncs when internet is available  
+- 📂 **SAI Dashboard:** Officials view verified reports & athlete profiles  
 
-✅ Proposed Solution
+---
 
-AthleteX AI is a mobile-first platform that enables athletes to showcase their talent anytime, anywhere.
+## 🧩 Backend  
 
-📱 Athletes record videos of standard fitness tests (vertical jump, shuttle run, sit-ups, endurance run, etc.)
+- 🐍 **Flask / FastAPI** → AI inference endpoints  
+- 📂 **Secure API** for video uploads & report storage  
+- 🧠 **AI Models** for movement detection, rep counting & cheat detection  
+- ☁ **Deployment:** AWS / GCP for scalability  
 
-🧠 AI/ML models verify movements, calculate performance metrics & detect cheating
+---
 
-🔄 Data securely uploaded to SAI servers for official evaluation
+## 💻 Frontend  
 
-📊 Athletes receive instant performance benchmarking and digital progress tracking
+- 📱 **React Native / Flutter** → Cross-platform mobile app  
+- 🎨 **TailwindCSS** → Clean, responsive UI  
+- 🌐 **Web Dashboard (React.js)** → For SAI officials  
 
+---
 
+## 🧠 Machine Learning Modules  
 
-🚀 Key Features
+- 📷 **Pose Estimation (MediaPipe / OpenPose):** Detects athlete body movements  
+- 🧩 **Action Recognition (CNN + LSTM):** Counts reps, measures form  
+- 🛡 **Anomaly Detection:** Cheat prevention (cuts, overlays, wrong reps)  
+- ⏱ **Computer Vision Timing:** Tracks shuttle runs & endurance  
 
-🎥 Video-based Assessment: Record & upload fitness tests directly via mobile
+---
 
-🧠 On-device AI Analysis: Jump height, sit-up count, shuttle run timing, endurance run distance
+## 💰 Future Aspects  
 
-🛡 AI Cheat Detection: Detects tampered videos, incorrect posture, or camera manipulation
+- 🏟 **National Rollout:** Integration with SAI’s scouting program  
+- 🏫 **School/College Integration:** Grassroots athlete discovery  
+- 📱 **Native Apps:** iOS & Android with multilingual support  
+- 🤝 **Partnerships:** NGOs, academies, federations  
+- 🧠 **AI Skill Profiling:** Predicts potential in different sports  
 
-📊 Performance Benchmarking: Instant comparison with age/gender-specific standards
+---
 
-🕹 Gamified Experience: Leaderboards, badges & progress tracking to motivate athletes
+## 📈 Scalability Roadmap  
 
-📶 Offline Support: Video analysis works offline, syncs when internet available
+1. 📱 **MVP:** App for video capture & AI-based evaluation  
+2. 🌍 **Expand:** Multilingual support + offline-first  
+3. 🧪 **Scale:** Govt. & institutional onboarding  
+4. 🏆 **Future:** AI-driven scouting + wearables integration  
 
-📂 SAI Dashboard: Officials view verified performance reports & athlete profiles
+---
 
+## 🌍 Expected Impact  
 
+- 🌱 **Democratization:** Rural athletes get equal access  
+- 🕒 **Efficiency:** Saves time & cost of scouting  
+- 🏅 **Transparency:** AI ensures unbiased evaluation  
+- 🚀 **Mass Participation:** Engage millions of athletes  
 
-🧩 Backend
+---
 
-🐍 Flask / FastAPI for AI inference endpoints
+## 🧪 Implementation Roadmap  
 
-📂 Secure API for athlete video uploads & report storage
+1. 📷 Build AI pipeline (pose estimation, rep counting, jump height detection)  
+2. 🧠 Integrate cheat detection & anomaly analysis  
+3. 💻 Develop athlete mobile app (video capture + results)  
+4. 🌐 Build **SAI dashboard** for officials  
+5. ☁ Deploy with **secure APIs**  
 
-🧠 AI Models for movement detection, rep counting & cheat detection
+---
 
-☁ Deployment on AWS / GCP for scalability
+## 🧰 How to Run the Project  
 
-
-
-💻 Frontend
-
-📱 React Native / Flutter for cross-platform mobile app
-
-🎨 TailwindCSS for responsive, clean UI
-
-🌐 Web Dashboard (React.js) for SAI officials
-
-
-
-🧠 Machine Learning Modules
-
-📷 Pose Estimation (MediaPipe / OpenPose) → Detects athlete body movements
-
-🧩 Action Recognition Models (CNN + LSTM) → Counts reps, measures form
-
-🛡 Anomaly Detection → Cheat prevention (cuts, overlays, wrong reps)
-
-⏱ Computer Vision Timing → Tracks shuttle runs & endurance time
-
-
-
-💰 Future Aspects
-
-🏟 National-Level Rollout: Integration with SAI’s official scouting program
-
-🏫 School/College Integration: Early athlete identification at grassroots level
-
-📱 Native iOS & Android apps with multilingual support
-
-🤝 Partnerships with NGOs, academies, and federations
-
-🧠 AI Skill Profiling: Predicts potential in different sports based on test results
-
-
-
-📈 Scalability Roadmap
-
-📱 MVP: App for video capture & AI-based performance evaluation
-
-🌍 Expand: Multilingual support + offline-first architecture
-
-🧪 Scale: Government & institutional onboarding
-
-
-🏆 Future: AI-driven scouting + wearable integration
-
-
-🌍 Expected Impact
-
-🌱 Democratization: Rural athletes get equal access to talent assessment
-
-🕒 Efficiency: Saves time & cost of physical scouting
-
-🏅 Transparency: AI ensures unbiased, scientific evaluation
-
-🚀 Mass Participation: Engage millions of aspiring athletes
-
-
-
-🧪 Implementation Roadmap
-
-📷 Build AI pipeline (pose estimation, rep counting, jump height detection)
-
-🧠 Integrate cheat detection & anomaly analysis
-
-💻 Develop athlete mobile app (video capture + results)
-
-🌐 Build SAI dashboard for officials
-
-☁ Deploy with secure APIs
-
-
-
-🧰 How to Run the Project
-
-
-📦 Backend Setup
-
+### 📦 Backend Setup  
+```bash
 pip install flask flask-cors opencv-python mediapipe ultralytics python-dotenv
-
 python app.py
 
-Backend runs on: http://localhost:5000/
-
 💻 Frontend Setup
-cd frontend
-npm install
-npm run dev
+# Go to frontend folder
+cd frontend  
 
-Frontend runs on: http://localhost:5173/
+# Install dependencies
+npm install  
 
-📬 Contact
-For collaboration or queries:
-📧 Kashish Gupta – kashishgupta892004@gmail.com
-📧 Kashish Gupta – kashish.gupta@example.com
-👉 This repo is under active development by Team [Your Team Name] for Smart India Hackathon 2025.
+# Run the frontend
+npm run dev  
+
